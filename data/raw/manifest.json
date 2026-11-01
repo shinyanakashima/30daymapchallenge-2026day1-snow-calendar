@@ -1,0 +1,8 @@
+{
+  "snowfrostice_normals.html": {"url": "https://www.data.jma.go.jp/sapporo/tenki/snow-frost-ice/snowfrostice_normals.html", "retrieved": "2026-11-01T22:08:31+09:00", "sha256": "8706c8178265f28a24659f5c01f288888a9f0ccd5ecb7668379a1cd44fbfd507"},
+  "snow.html": {"url": "https://www.data.jma.go.jp/sapporo/tenki/snow-frost-ice/snow.html", "retrieved": "2026-11-01T22:08:32+09:00", "sha256": "22e865b973676a5df3421558544a3f21b3774f952711f1d6ca7123c2998dbdf1"},
+  "snow_previous.html": {"url": "https://www.jma-net.go.jp/sapporo/tenki/snow-frost-ice/snow_previous.html", "retrieved": "2026-11-01T22:08:32+09:00", "sha256": "f835be20c84be42067438bbf7bf24c8c48ecfe8a5ce283bf8157c0c4a4a5f092"},
+  "snowfrostice_faq.html": {"url": "https://www.jma-net.go.jp/sapporo/tenki/snow-frost-ice/snowfrostice_faq.html", "retrieved": "2026-11-01T22:08:32+09:00", "sha256": "d2d80b003a21fe905f16cc023e3cfde07584a8ccab77abff3f1259b11da19ac3"},
+  "smaster.index.zip": {"url": "https://www.data.jma.go.jp/stats/data/mdrr/chiten/meta/smaster.index.zip", "retrieved": "2026-11-01T22:08:32+09:00", "sha256": "0b8df8d9ae690e3075aa0f796b08c851d562b60a830922ab0c6439b5d35c6186"},
+  "smasterindex_format.pdf": {"url": "https://www.data.jma.go.jp/stats/mdrr/man/smasterindex_format.pdf", "retrieved": "2026-11-01T22:08:33+09:00", "sha256": "e90ac6df08343405e5d4f71fc486876adbe74e018eebafa8b162156968e96400"}
+}

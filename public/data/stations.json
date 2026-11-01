@@ -1,0 +1,1234 @@
+{
+ "title": "冬は、北から来る？",
+ "generated": "2026-11-01",
+ "season_day_origin": "08-01",
+ "datasets": {
+  "normal": {
+   "label": "平年値",
+   "data_kind": "normal",
+   "reference_period": "1990年8月～2020年7月",
+   "reference_period_note": "1991寒候年～2020寒候年の30年平均（1990年8月～2020年7月）",
+   "source_url": "https://www.data.jma.go.jp/sapporo/tenki/snow-frost-ice/snowfrostice_normals.html",
+   "retrieved": "2026-11-01T22:08:31+09:00"
+  },
+  "observed_prev": {
+   "winter_year": 2026,
+   "period": "2025年8月1日～2026年7月31日",
+   "as_of": "2026-10-06",
+   "season_complete": true,
+   "source_url": "https://www.jma-net.go.jp/sapporo/tenki/snow-frost-ice/snow_previous.html",
+   "retrieved": "2026-11-01T22:08:32+09:00"
+  },
+  "observed_cur": {
+   "winter_year": 2027,
+   "period": "2026年8月1日～2027年7月31日",
+   "as_of": "2026-10-31",
+   "season_complete": false,
+   "source_url": "https://www.data.jma.go.jp/sapporo/tenki/snow-frost-ice/snow.html",
+   "retrieved": "2026-11-01T22:08:32+09:00"
+  }
+ },
+ "station_source": {
+  "source_url": "https://www.data.jma.go.jp/stats/data/mdrr/chiten/meta/smaster.index.zip",
+  "retrieved": "2026-11-01T22:08:32+09:00",
+  "note": "緯度経度は度分（0.1分単位）を十進度へ変換。現在の地点位置を採用。"
+ },
+ "stations": [
+  {
+   "station_id": "47401",
+   "name": "稚内",
+   "kana": "ﾜﾂｶﾅｲ",
+   "romaji": "WAKKANAI",
+   "office": "稚内地方気象台",
+   "kind": "気象官署",
+   "longitude": 141.67833,
+   "latitude": 45.415,
+   "elevation_m": 2.5,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 45.415,
+     "lon": 141.67833
+    }
+   ],
+   "normal": {
+    "snow_first": "10-19",
+    "snow_last": "05-10",
+    "cover_first": "11-12",
+    "cover_last": "04-12",
+    "persistent_first": "12-03",
+    "persistent_last": "03-29"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-04",
+     "cover_first": "11-18",
+     "cover_last": "04-12",
+     "persistent_first": "12-01",
+     "persistent_last": "03-07"
+    },
+    "2027": {
+     "snow_first": "10-22",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47402",
+   "name": "北見枝幸",
+   "kana": "ｷﾀﾐｴｻｼ",
+   "romaji": "KITAMIESASHI",
+   "office": "稚内地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 142.585,
+   "latitude": 44.94,
+   "elevation_m": 6.7,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 44.94,
+     "lon": 142.585
+    }
+   ],
+   "normal": {
+    "snow_first": "10-28",
+    "snow_last": "05-06",
+    "cover_first": "11-07",
+    "cover_last": "04-22",
+    "persistent_first": "11-26",
+    "persistent_last": "04-12"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-04",
+     "cover_first": "11-07",
+     "cover_last": "04-02",
+     "persistent_first": "12-09",
+     "persistent_last": "04-02"
+    },
+    "2027": {
+     "snow_first": "10-22",
+     "snow_last": null,
+     "cover_first": "10-29",
+     "cover_last": "10-29",
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47404",
+   "name": "羽幌",
+   "kana": "ﾊﾎﾞﾛ",
+   "romaji": "HABORO",
+   "office": "旭川地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 141.7,
+   "latitude": 44.36333,
+   "elevation_m": 7.9,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 44.36333,
+     "lon": 141.7
+    }
+   ],
+   "normal": {
+    "snow_first": "10-27",
+    "snow_last": "04-22",
+    "cover_first": "11-12",
+    "cover_last": "04-08",
+    "persistent_first": "12-02",
+    "persistent_last": "04-04"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-04",
+     "cover_first": "11-17",
+     "cover_last": "03-21",
+     "persistent_first": "12-02",
+     "persistent_last": "03-21"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47405",
+   "name": "雄武",
+   "kana": "ｵｳﾑ",
+   "romaji": "OMU",
+   "office": "網走地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 142.96333,
+   "latitude": 44.58,
+   "elevation_m": 14.1,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 44.58,
+     "lon": 142.96333
+    }
+   ],
+   "normal": {
+    "snow_first": "10-27",
+    "snow_last": "05-07",
+    "cover_first": "11-07",
+    "cover_last": "04-22",
+    "persistent_first": "12-01",
+    "persistent_last": "04-04"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-05",
+     "cover_first": "11-07",
+     "cover_last": "05-04",
+     "persistent_first": "12-08",
+     "persistent_last": "03-31"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47406",
+   "name": "留萌",
+   "kana": "ﾙﾓｲ",
+   "romaji": "RUMOI",
+   "office": "旭川地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 141.63167,
+   "latitude": 43.945,
+   "elevation_m": 23.6,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 43.945,
+     "lon": 141.63167
+    }
+   ],
+   "normal": {
+    "snow_first": "10-25",
+    "snow_last": "04-26",
+    "cover_first": "11-14",
+    "cover_last": "04-05",
+    "persistent_first": "12-05",
+    "persistent_last": "03-31"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-04",
+     "cover_first": "11-08",
+     "cover_last": "03-19",
+     "persistent_first": "12-10",
+     "persistent_last": "03-19"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47407",
+   "name": "旭川",
+   "kana": "ｱｻﾋｶﾜ",
+   "romaji": "ASAHIKAWA",
+   "office": "旭川地方気象台",
+   "kind": "気象官署",
+   "longitude": 142.37167,
+   "latitude": 43.75667,
+   "elevation_m": 119.6,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 43.75667,
+     "lon": 142.37167
+    },
+    {
+     "lat": 43.77167,
+     "lon": 142.36833
+    }
+   ],
+   "normal": {
+    "snow_first": "10-19",
+    "snow_last": "05-01",
+    "cover_first": "11-04",
+    "cover_last": "04-14",
+    "persistent_first": "11-24",
+    "persistent_last": "04-07"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-04",
+     "cover_first": "10-28",
+     "cover_last": "05-05",
+     "persistent_first": "11-17",
+     "persistent_last": "03-29"
+    },
+    "2027": {
+     "snow_first": "10-22",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": [
+    "moved_during_normal_period"
+   ]
+  },
+  {
+   "station_id": "47409",
+   "name": "網走",
+   "kana": "ｱﾊﾞｼﾘ",
+   "romaji": "ABASHIRI",
+   "office": "網走地方気象台",
+   "kind": "気象官署",
+   "longitude": 144.27833,
+   "latitude": 44.01667,
+   "elevation_m": 37.6,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 44.01667,
+     "lon": 144.27833
+    }
+   ],
+   "normal": {
+    "snow_first": "10-30",
+    "snow_last": "05-11",
+    "cover_first": "11-17",
+    "cover_last": "04-18",
+    "persistent_first": "12-08",
+    "persistent_last": "04-01"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-14",
+     "cover_first": "11-14",
+     "cover_last": "04-03",
+     "persistent_first": "12-03",
+     "persistent_last": "03-27"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47411",
+   "name": "小樽",
+   "kana": "ｵﾀﾙ",
+   "romaji": "OTARU",
+   "office": "札幌管区気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 141.015,
+   "latitude": 43.18167,
+   "elevation_m": 24.9,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 43.18167,
+     "lon": 141.015
+    },
+    {
+     "lat": 43.18167,
+     "lon": 141.01667
+    }
+   ],
+   "normal": {
+    "snow_first": "10-31",
+    "snow_last": "04-22",
+    "cover_first": "11-15",
+    "cover_last": "04-10",
+    "persistent_first": "12-02",
+    "persistent_last": "04-08"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "04-12",
+     "cover_first": "11-07",
+     "cover_last": "03-30",
+     "persistent_first": "12-08",
+     "persistent_last": "03-30"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": [
+    "moved_during_normal_period"
+   ]
+  },
+  {
+   "station_id": "47412",
+   "name": "札幌",
+   "kana": "ｻﾂﾎﾟﾛ",
+   "romaji": "SAPPORO",
+   "office": "札幌管区気象台",
+   "kind": "気象官署",
+   "longitude": 141.32833,
+   "latitude": 43.06,
+   "elevation_m": 17.4,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 43.06,
+     "lon": 141.32833
+    }
+   ],
+   "normal": {
+    "snow_first": "10-28",
+    "snow_last": "04-21",
+    "cover_first": "11-12",
+    "cover_last": "04-07",
+    "persistent_first": "12-06",
+    "persistent_last": "04-02"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-23",
+     "snow_last": "04-08",
+     "cover_first": "11-08",
+     "cover_last": "03-27",
+     "persistent_first": "12-03",
+     "persistent_last": "03-27"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47413",
+   "name": "岩見沢",
+   "kana": "ｲﾜﾐｻﾞﾜ",
+   "romaji": "IWAMIZAWA",
+   "office": "札幌管区気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 141.785,
+   "latitude": 43.21167,
+   "elevation_m": 42.3,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 43.21167,
+     "lon": 141.785
+    }
+   ],
+   "normal": {
+    "snow_first": "10-30",
+    "snow_last": "04-21",
+    "cover_first": "11-10",
+    "cover_last": "04-11",
+    "persistent_first": "12-01",
+    "persistent_last": "04-06"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-24",
+     "snow_last": "05-04",
+     "cover_first": "11-11",
+     "cover_last": "03-21",
+     "persistent_first": "12-02",
+     "persistent_last": "03-06"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47417",
+   "name": "帯広",
+   "kana": "ｵﾋﾞﾋﾛ",
+   "romaji": "OBIHIRO",
+   "office": "帯広測候所",
+   "kind": "気象官署",
+   "longitude": 143.21167,
+   "latitude": 42.92167,
+   "elevation_m": 38.4,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.92167,
+     "lon": 143.21167
+    }
+   ],
+   "normal": {
+    "snow_first": "11-01",
+    "snow_last": "04-26",
+    "cover_first": "11-24",
+    "cover_last": "04-13",
+    "persistent_first": "12-07",
+    "persistent_last": "03-24"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-28",
+     "snow_last": "05-05",
+     "cover_first": "12-03",
+     "cover_last": "03-21",
+     "persistent_first": "12-03",
+     "persistent_last": "03-17"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47418",
+   "name": "釧路",
+   "kana": "ｸｼﾛ",
+   "romaji": "KUSHIRO",
+   "office": "釧路地方気象台",
+   "kind": "気象官署",
+   "longitude": 144.37667,
+   "latitude": 42.985,
+   "elevation_m": 4.5,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.985,
+     "lon": 144.37667
+    },
+    {
+     "lat": 42.985,
+     "lon": 144.395
+    }
+   ],
+   "normal": {
+    "snow_first": "11-07",
+    "snow_last": "05-01",
+    "cover_first": "12-01",
+    "cover_last": "04-08",
+    "persistent_first": "12-30",
+    "persistent_last": "03-11"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "11-11",
+     "snow_last": "05-05",
+     "cover_first": "12-03",
+     "cover_last": "04-04",
+     "persistent_first": "12-14",
+     "persistent_last": "02-21"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": [
+    "moved_during_normal_period"
+   ]
+  },
+  {
+   "station_id": "47420",
+   "name": "根室",
+   "kana": "ﾈﾑﾛ",
+   "romaji": "NEMURO",
+   "office": "釧路地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 145.585,
+   "latitude": 43.33,
+   "elevation_m": 25.2,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 43.33,
+     "lon": 145.585
+    }
+   ],
+   "normal": {
+    "snow_first": "11-06",
+    "snow_last": "05-06",
+    "cover_first": "12-06",
+    "cover_last": "04-12",
+    "persistent_first": "01-01",
+    "persistent_last": "03-21"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "11-07",
+     "snow_last": "05-05",
+     "cover_first": "12-04",
+     "cover_last": "04-03",
+     "persistent_first": "01-17",
+     "persistent_last": "02-22"
+    },
+    "2027": {
+     "snow_first": null,
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47421",
+   "name": "寿都",
+   "kana": "ｽﾂﾂ",
+   "romaji": "SUTTSU",
+   "office": "札幌管区気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 140.22333,
+   "latitude": 42.795,
+   "elevation_m": 33.4,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.795,
+     "lon": 140.22333
+    }
+   ],
+   "normal": {
+    "snow_first": "10-28",
+    "snow_last": "04-19",
+    "cover_first": "11-15",
+    "cover_last": "04-03",
+    "persistent_first": "12-10",
+    "persistent_last": "03-26"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-27",
+     "snow_last": "04-11",
+     "cover_first": "11-18",
+     "cover_last": "03-22",
+     "persistent_first": "12-08",
+     "persistent_last": "03-22"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47423",
+   "name": "室蘭",
+   "kana": "ﾑﾛﾗﾝ",
+   "romaji": "MURORAN",
+   "office": "室蘭地方気象台",
+   "kind": "気象官署",
+   "longitude": 140.975,
+   "latitude": 42.31167,
+   "elevation_m": 39.7,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.31167,
+     "lon": 140.975
+    }
+   ],
+   "normal": {
+    "snow_first": "11-02",
+    "snow_last": "04-19",
+    "cover_first": "11-24",
+    "cover_last": "03-30",
+    "persistent_first": "01-01",
+    "persistent_last": "03-07"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-28",
+     "snow_last": "04-08",
+     "cover_first": "12-03",
+     "cover_last": "03-09",
+     "persistent_first": "01-02",
+     "persistent_last": "02-24"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47424",
+   "name": "苫小牧",
+   "kana": "ﾄﾏｺﾏｲ",
+   "romaji": "TOMAKOMAI",
+   "office": "室蘭地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 141.54667,
+   "latitude": 42.62333,
+   "elevation_m": 6.3,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.62333,
+     "lon": 141.54667
+    }
+   ],
+   "normal": {
+    "snow_first": "11-02",
+    "snow_last": "04-19",
+    "cover_first": "11-30",
+    "cover_last": "03-31",
+    "persistent_first": "12-29",
+    "persistent_last": "03-11"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-28",
+     "snow_last": "04-24",
+     "cover_first": "12-10",
+     "cover_last": "03-10",
+     "persistent_first": "01-17",
+     "persistent_last": "02-24"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47426",
+   "name": "浦河",
+   "kana": "ｳﾗｶﾜ",
+   "romaji": "URAKAWA",
+   "office": "室蘭地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 142.77667,
+   "latitude": 42.16167,
+   "elevation_m": 36.7,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.16167,
+     "lon": 142.77667
+    }
+   ],
+   "normal": {
+    "snow_first": "11-04",
+    "snow_last": "04-24",
+    "cover_first": "11-27",
+    "cover_last": "03-27",
+    "persistent_first": "12-24",
+    "persistent_last": "02-17"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-28",
+     "snow_last": "04-08",
+     "cover_first": "12-03",
+     "cover_last": "03-21",
+     "persistent_first": "12-26",
+     "persistent_last": "02-07"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47428",
+   "name": "江差",
+   "kana": "ｴｻｼ",
+   "romaji": "ESASHI",
+   "office": "函館地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 140.12333,
+   "latitude": 41.86667,
+   "elevation_m": 3.7,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 41.86667,
+     "lon": 140.12333
+    }
+   ],
+   "normal": {
+    "snow_first": "11-04",
+    "snow_last": "04-17",
+    "cover_first": "11-26",
+    "cover_last": "03-22",
+    "persistent_first": "12-31",
+    "persistent_last": "02-26"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "11-07",
+     "snow_last": "03-21",
+     "cover_first": "12-03",
+     "cover_last": "03-21",
+     "persistent_first": "12-31",
+     "persistent_last": "02-21"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47430",
+   "name": "函館",
+   "kana": "ﾊｺﾀﾞﾃ",
+   "romaji": "HAKODATE",
+   "office": "函館地方気象台",
+   "kind": "気象官署",
+   "longitude": 140.75333,
+   "latitude": 41.81667,
+   "elevation_m": 35.0,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 41.81667,
+     "lon": 140.75333
+    }
+   ],
+   "normal": {
+    "snow_first": "11-01",
+    "snow_last": "04-16",
+    "cover_first": "11-18",
+    "cover_last": "03-28",
+    "persistent_first": "12-19",
+    "persistent_last": "03-10"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-28",
+     "snow_last": "04-08",
+     "cover_first": "11-18",
+     "cover_last": "02-22",
+     "persistent_first": "12-26",
+     "persistent_last": "02-22"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47433",
+   "name": "倶知安",
+   "kana": "ｸﾂﾁﾔﾝ",
+   "romaji": "KUTCHAN",
+   "office": "札幌管区気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 140.75667,
+   "latitude": 42.9,
+   "elevation_m": 176.1,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.9,
+     "lon": 140.75667
+    },
+    {
+     "lat": 42.90167,
+     "lon": 140.745
+    }
+   ],
+   "normal": {
+    "snow_first": "10-20",
+    "snow_last": "04-27",
+    "cover_first": "11-06",
+    "cover_last": "04-18",
+    "persistent_first": "11-21",
+    "persistent_last": "04-17"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-10",
+     "snow_last": "05-04",
+     "cover_first": "10-28",
+     "cover_last": "04-02",
+     "persistent_first": "12-02",
+     "persistent_last": "04-02"
+    },
+    "2027": {
+     "snow_first": "10-22",
+     "snow_last": null,
+     "cover_first": "10-28",
+     "cover_last": "10-29",
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": [
+    "moved_during_normal_period"
+   ]
+  },
+  {
+   "station_id": "47435",
+   "name": "紋別",
+   "kana": "ﾓﾝﾍﾞﾂ",
+   "romaji": "MOMBETSU",
+   "office": "網走地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 143.355,
+   "latitude": 44.345,
+   "elevation_m": 15.8,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 44.345,
+     "lon": 143.355
+    }
+   ],
+   "normal": {
+    "snow_first": "10-27",
+    "snow_last": "05-08",
+    "cover_first": "11-16",
+    "cover_last": "04-19",
+    "persistent_first": "12-05",
+    "persistent_last": "04-03"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-20",
+     "snow_last": "05-05",
+     "cover_first": "11-07",
+     "cover_last": "04-01",
+     "persistent_first": "12-08",
+     "persistent_last": "04-01"
+    },
+    "2027": {
+     "snow_first": "10-27",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": []
+  },
+  {
+   "station_id": "47440",
+   "name": "広尾",
+   "kana": "ﾋﾛｵ",
+   "romaji": "HIROO",
+   "office": "釧路地方気象台",
+   "kind": "特別地域気象観測所",
+   "longitude": 143.31667,
+   "latitude": 42.29333,
+   "elevation_m": 32.4,
+   "position_basis": "現在の地点（地点情報履歴で終了日が99999999の行）",
+   "position_history_in_normal_period": [
+    {
+     "lat": 42.29333,
+     "lon": 143.315
+    },
+    {
+     "lat": 42.29333,
+     "lon": 143.31667
+    }
+   ],
+   "normal": {
+    "snow_first": "11-05",
+    "snow_last": "04-29",
+    "cover_first": "11-30",
+    "cover_last": "04-17",
+    "persistent_first": "12-13",
+    "persistent_last": "04-01"
+   },
+   "normal_flags": {
+    "snow_first": [],
+    "snow_last": [],
+    "cover_first": [],
+    "cover_last": [],
+    "persistent_first": [],
+    "persistent_last": []
+   },
+   "observed": {
+    "2026": {
+     "snow_first": "10-28",
+     "snow_last": "04-30",
+     "cover_first": "12-03",
+     "cover_last": "04-02",
+     "persistent_first": "01-17",
+     "persistent_last": "02-19"
+    },
+    "2027": {
+     "snow_first": "10-28",
+     "snow_last": null,
+     "cover_first": null,
+     "cover_last": null,
+     "persistent_first": null,
+     "persistent_last": null
+    }
+   },
+   "quality_flags": [
+    "moved_during_normal_period"
+   ]
+  }
+ ]
+}

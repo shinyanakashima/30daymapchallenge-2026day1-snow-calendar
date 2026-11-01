@@ -1,0 +1,20 @@
+{
+  "name": "hokkaido-snow-calendar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "data": "python3 -I scripts/build_data.py"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1"
+  }
+}
