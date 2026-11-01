@@ -20,6 +20,7 @@ import io
 import json
 import re
 import sys
+import unicodedata
 import zipfile
 from datetime import date
 from html.parser import HTMLParser
@@ -296,7 +297,7 @@ def read_smaster(zip_path: Path) -> list[dict]:
         name = f(81, 12).decode("cp932").replace("　", "").strip()
         recs.append({
             "station_no": int(f(1, 3)),
-            "kana": f(17, 8).decode("cp932").strip(),
+            "kana": unicodedata.normalize("NFKC", f(17, 8).decode("cp932")).strip(),  # 半角カナ→全角
             "romaji": f(25, 12).decode("ascii").strip(),
             "lat_raw": f(37, 6).decode("ascii"),
             "lon_raw": f(43, 7).decode("ascii"),

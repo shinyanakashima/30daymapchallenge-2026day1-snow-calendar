@@ -37,7 +37,7 @@
   {
    "station_id": "47401",
    "name": "稚内",
-   "kana": "ﾜﾂｶﾅｲ",
+   "kana": "ワツカナイ",
    "romaji": "WAKKANAI",
    "office": "稚内地方気象台",
    "kind": "気象官署",
@@ -90,7 +90,7 @@
   {
    "station_id": "47402",
    "name": "北見枝幸",
-   "kana": "ｷﾀﾐｴｻｼ",
+   "kana": "キタミエサシ",
    "romaji": "KITAMIESASHI",
    "office": "稚内地方気象台",
    "kind": "特別地域気象観測所",
@@ -143,7 +143,7 @@
   {
    "station_id": "47404",
    "name": "羽幌",
-   "kana": "ﾊﾎﾞﾛ",
+   "kana": "ハボロ",
    "romaji": "HABORO",
    "office": "旭川地方気象台",
    "kind": "特別地域気象観測所",
@@ -196,7 +196,7 @@
   {
    "station_id": "47405",
    "name": "雄武",
-   "kana": "ｵｳﾑ",
+   "kana": "オウム",
    "romaji": "OMU",
    "office": "網走地方気象台",
    "kind": "特別地域気象観測所",
@@ -249,7 +249,7 @@
   {
    "station_id": "47406",
    "name": "留萌",
-   "kana": "ﾙﾓｲ",
+   "kana": "ルモイ",
    "romaji": "RUMOI",
    "office": "旭川地方気象台",
    "kind": "特別地域気象観測所",
@@ -302,7 +302,7 @@
   {
    "station_id": "47407",
    "name": "旭川",
-   "kana": "ｱｻﾋｶﾜ",
+   "kana": "アサヒカワ",
    "romaji": "ASAHIKAWA",
    "office": "旭川地方気象台",
    "kind": "気象官署",
@@ -361,7 +361,7 @@
   {
    "station_id": "47409",
    "name": "網走",
-   "kana": "ｱﾊﾞｼﾘ",
+   "kana": "アバシリ",
    "romaji": "ABASHIRI",
    "office": "網走地方気象台",
    "kind": "気象官署",
@@ -414,7 +414,7 @@
   {
    "station_id": "47411",
    "name": "小樽",
-   "kana": "ｵﾀﾙ",
+   "kana": "オタル",
    "romaji": "OTARU",
    "office": "札幌管区気象台",
    "kind": "特別地域気象観測所",
@@ -473,7 +473,7 @@
   {
    "station_id": "47412",
    "name": "札幌",
-   "kana": "ｻﾂﾎﾟﾛ",
+   "kana": "サツポロ",
    "romaji": "SAPPORO",
    "office": "札幌管区気象台",
    "kind": "気象官署",
@@ -526,7 +526,7 @@
   {
    "station_id": "47413",
    "name": "岩見沢",
-   "kana": "ｲﾜﾐｻﾞﾜ",
+   "kana": "イワミザワ",
    "romaji": "IWAMIZAWA",
    "office": "札幌管区気象台",
    "kind": "特別地域気象観測所",
@@ -579,7 +579,7 @@
   {
    "station_id": "47417",
    "name": "帯広",
-   "kana": "ｵﾋﾞﾋﾛ",
+   "kana": "オビヒロ",
    "romaji": "OBIHIRO",
    "office": "帯広測候所",
    "kind": "気象官署",
@@ -632,7 +632,7 @@
   {
    "station_id": "47418",
    "name": "釧路",
-   "kana": "ｸｼﾛ",
+   "kana": "クシロ",
    "romaji": "KUSHIRO",
    "office": "釧路地方気象台",
    "kind": "気象官署",
@@ -691,7 +691,7 @@
   {
    "station_id": "47420",
    "name": "根室",
-   "kana": "ﾈﾑﾛ",
+   "kana": "ネムロ",
    "romaji": "NEMURO",
    "office": "釧路地方気象台",
    "kind": "特別地域気象観測所",
@@ -744,7 +744,7 @@
   {
    "station_id": "47421",
    "name": "寿都",
-   "kana": "ｽﾂﾂ",
+   "kana": "スツツ",
    "romaji": "SUTTSU",
    "office": "札幌管区気象台",
    "kind": "特別地域気象観測所",
@@ -797,7 +797,7 @@
   {
    "station_id": "47423",
    "name": "室蘭",
-   "kana": "ﾑﾛﾗﾝ",
+   "kana": "ムロラン",
    "romaji": "MURORAN",
    "office": "室蘭地方気象台",
    "kind": "気象官署",
@@ -850,7 +850,7 @@
   {
    "station_id": "47424",
    "name": "苫小牧",
-   "kana": "ﾄﾏｺﾏｲ",
+   "kana": "トマコマイ",
    "romaji": "TOMAKOMAI",
    "office": "室蘭地方気象台",
    "kind": "特別地域気象観測所",
@@ -903,7 +903,7 @@
   {
    "station_id": "47426",
    "name": "浦河",
-   "kana": "ｳﾗｶﾜ",
+   "kana": "ウラカワ",
    "romaji": "URAKAWA",
    "office": "室蘭地方気象台",
    "kind": "特別地域気象観測所",
@@ -956,7 +956,7 @@
   {
    "station_id": "47428",
    "name": "江差",
-   "kana": "ｴｻｼ",
+   "kana": "エサシ",
    "romaji": "ESASHI",
    "office": "函館地方気象台",
    "kind": "特別地域気象観測所",
@@ -1009,7 +1009,7 @@
   {
    "station_id": "47430",
    "name": "函館",
-   "kana": "ﾊｺﾀﾞﾃ",
+   "kana": "ハコダテ",
    "romaji": "HAKODATE",
    "office": "函館地方気象台",
    "kind": "気象官署",
@@ -1062,7 +1062,7 @@
   {
    "station_id": "47433",
    "name": "倶知安",
-   "kana": "ｸﾂﾁﾔﾝ",
+   "kana": "クツチヤン",
    "romaji": "KUTCHAN",
    "office": "札幌管区気象台",
    "kind": "特別地域気象観測所",
@@ -1121,7 +1121,7 @@
   {
    "station_id": "47435",
    "name": "紋別",
-   "kana": "ﾓﾝﾍﾞﾂ",
+   "kana": "モンベツ",
    "romaji": "MOMBETSU",
    "office": "網走地方気象台",
    "kind": "特別地域気象観測所",
@@ -1174,7 +1174,7 @@
   {
    "station_id": "47440",
    "name": "広尾",
-   "kana": "ﾋﾛｵ",
+   "kana": "ヒロオ",
    "romaji": "HIROO",
    "office": "釧路地方気象台",
    "kind": "特別地域気象観測所",
