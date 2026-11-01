@@ -2,86 +2,96 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>冬は、北から来る？ ― 北海道22地点の雪の暦</title>
-    <meta name="description" content="北海道の気象官署・特別地域気象観測所22地点の、初雪・積雪・根雪の平年日と実測日を日付スライダーでたどる地図。#30DayMapChallenge Day 1 Points" />
+    <meta name="description" content="北海道の気象官署・特別地域気象観測所22地点の、初雪・積雪・根雪の平年日と実測日を日付でたどる地図。#30DayMapChallenge Day 1 Points" />
+    <meta name="theme-color" content="#08090b" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="page">
-      <header class="head">
-        <p class="eyebrow">#30DayMapChallenge 2026 ／ Day 1 Points</p>
-        <h1>冬は、北から来る？</h1>
-        <p class="lead">
-          北海道の22の気象観測地点が、初雪・積雪・根雪を迎える順番を日付でたどります。
-          緯度の順に並ぶのか、並ばないのか。地図と右の暦を見比べてください。
-        </p>
+    <div class="stage">
+      <header class="title">
+        <h1>冬は、<br />北から来る？</h1>
+        <p class="sub">北海道22の観測地点<span class="sep"></span>初雪・積雪・根雪の暦</p>
       </header>
 
-      <section class="controls" aria-label="表示の切り替え">
-        <div class="seg" role="radiogroup" aria-label="データ" id="dataset"></div>
-        <div class="seg" role="radiogroup" aria-label="現象" id="mode"></div>
-      </section>
+      <figure class="map">
+        <svg id="map" role="img" aria-label="北海道の観測地点の地図"></svg>
+      </figure>
 
-      <section class="timebar" aria-label="日付">
-        <button id="play" class="play" type="button" aria-label="再生">▶</button>
-        <div class="slider-wrap">
-          <div class="date-row">
-            <output id="date-label" class="date-label"></output>
-            <span id="count-label" class="count-label"></span>
-          </div>
-          <input id="slider" type="range" min="0" max="364" step="1" aria-label="日付" />
-          <div id="ticks" class="ticks" aria-hidden="true"></div>
+      <aside class="side">
+        <section class="log" aria-label="記録">
+          <h2 class="label">この冬の記録</h2>
+          <ol id="log"></ol>
+        </section>
+        <section id="detail" class="detail" aria-live="polite"></section>
+      </aside>
+
+      <div class="hero" aria-live="off">
+        <p class="hero-kind" id="hero-kind"></p>
+        <p class="hero-date"><span id="hero-m"></span><small>月</small><span id="hero-d"></span><small>日</small></p>
+        <p class="hero-count" id="hero-count"></p>
+      </div>
+
+      <div class="dock">
+        <div class="switches">
+          <div class="tabs" role="radiogroup" aria-label="現象" id="mode"></div>
+          <div class="tabs" role="radiogroup" aria-label="データ" id="dataset"></div>
         </div>
-      </section>
-      <p id="notice" class="notice" hidden></p>
-
-      <main class="grid">
-        <figure class="map-wrap">
-          <svg id="map" role="img" aria-label="北海道の観測地点の地図"></svg>
-          <div id="legend" class="legend"></div>
-        </figure>
-
-        <section class="calendar-wrap" aria-label="地点ごとの暦">
-          <div class="cal-head">
-            <h2 id="cal-title">地点ごとの期間</h2>
-            <div class="seg small" role="radiogroup" aria-label="並び順" id="sort"></div>
+        <div class="scrub">
+          <button id="play" class="play" type="button" aria-label="再生"><span></span></button>
+          <div class="strip">
+            <svg id="strip" aria-hidden="true"></svg>
+            <input id="slider" type="range" aria-label="日付" />
           </div>
-          <svg id="calendar"></svg>
-          <p class="cal-note" id="cal-note"></p>
-        </section>
-
-        <aside id="detail" class="detail" aria-live="polite">
-          <p class="detail-empty">地図の点か暦の行を選ぶと、その地点の初日・終日を表示します。</p>
-        </aside>
-      </main>
-
-      <footer class="foot">
-        <section>
-          <h2>この地図の見方</h2>
-          <ul>
-            <li><b>平年値</b>は1991〜2020寒候年（1990年8月〜2020年7月）の30年の統計から求めた代表日です。ある年の冬を毎日再現したものではありません。</li>
-            <li><b>初雪</b>はその寒候年（8月1日〜翌年7月31日）に初めて観測された雪（みぞれを含む）。初雪の日から終雪の日まで、毎日雪が降っているわけではありません。</li>
-            <li><b>積雪</b>の初日・終日は日最深積雪1cm以上から算出した日です。その間ずっと積もっているとは限りません。</li>
-            <li><b>根雪</b>は統計上の「長期積雪」で、30日以上続く積雪などの規則で気象庁が定めた初日・終日をそのまま使っています。</li>
-            <li><b>今季（2026–27年の冬）</b>はページに記した日付時点の速報です。まだ観測されていない現象、確定していない根雪は空欄のまま扱い、日付の先を推測で埋めていません。根雪の初日・終日は、決まるまで日数がかかります。</li>
-            <li>点の位置は各地点の現在の観測場所です。平年値の統計期間中に旭川・小樽・釧路・倶知安・広尾は観測場所が移っています（地点の詳細に記載）。</li>
-            <li>地形や海流などとの関係は、このデータだけでは判断できません。</li>
-          </ul>
-        </section>
-        <section>
-          <h2>出典</h2>
-          <p id="sources"></p>
-          <p>
-            上記の気象庁の資料をもとに作者が編集・加工して作成しました（<a href="https://www.jma.go.jp/jma/kishou/info/coment.html" target="_blank" rel="noopener">気象庁ホームページの利用規約</a>、公共データ利用規約に準拠）。気象庁の公式の作品や予報ではありません。
-            背景の陸地は <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>（パブリックドメイン）。
-          </p>
-          <p class="credit"><a href="https://github.com/shinyanakashima/30daymapchallenge-2026day1-snow-calendar" target="_blank" rel="noopener">source</a></p>
-        </section>
-      </footer>
+        </div>
+        <p id="notice" class="notice" hidden></p>
+      </div>
     </div>
+
+    <main class="paper">
+      <section class="cal">
+        <div class="cal-head">
+          <h2 id="cal-title">地点ごとの暦</h2>
+          <div class="tabs small" role="radiogroup" aria-label="並び順" id="sort"></div>
+        </div>
+        <p class="cal-note" id="cal-note"></p>
+        <div class="cal-box"><svg id="calendar"></svg></div>
+      </section>
+
+      <section class="notes">
+        <h2>見方</h2>
+        <dl>
+          <dt>平年値</dt>
+          <dd>1991〜2020寒候年（1990年8月〜2020年7月）の30年の統計による代表日。ある年の冬を毎日再現したものではありません。</dd>
+          <dt>初雪</dt>
+          <dd>寒候年（8月1日〜翌年7月31日）に初めて観測された雪。みぞれを含みます。初雪から雪の終日まで、毎日降っているわけではありません。</dd>
+          <dt>積雪</dt>
+          <dd>日最深積雪1cm以上から算出した初日と終日。その間ずっと積もっているとは限りません。</dd>
+          <dt>根雪</dt>
+          <dd>統計上の「長期積雪」。30日以上続く積雪などの規則で気象庁が定めた初日・終日をそのまま使っています。点のまわりの光はこの期間だけに表示しています。</dd>
+          <dt>今季</dt>
+          <dd>2026–27年の冬は、表に記された日付時点の速報です。まだ観測されていない現象や確定していない根雪は空欄のまま扱い、推測で埋めていません。</dd>
+          <dt>地点</dt>
+          <dd>点は各地点の現在の観測場所です。平年値の統計期間中に、旭川・小樽・釧路・倶知安・広尾は観測場所が移っています。背景の明るさは、その日に該当する地点の数に合わせて変えています。地形や海流との関係は、このデータだけでは判断できません。</dd>
+        </dl>
+      </section>
+
+      <section class="notes">
+        <h2>出典</h2>
+        <p id="sources"></p>
+        <p>
+          上記の気象庁の資料をもとに作者が編集・加工して作成しました（<a href="https://www.jma.go.jp/jma/kishou/info/coment.html" target="_blank" rel="noopener">気象庁ホームページの利用規約</a>、公共データ利用規約に準拠）。気象庁の公式の作品や予報ではありません。背景の陸地は
+          <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>（パブリックドメイン）。
+        </p>
+        <p class="credit">#30DayMapChallenge 2026 Day 1 Points ／ <a href="https://github.com/shinyanakashima/30daymapchallenge-2026day1-snow-calendar" target="_blank" rel="noopener">source</a></p>
+      </section>
+    </main>
     <div id="tip" class="tip" hidden></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
